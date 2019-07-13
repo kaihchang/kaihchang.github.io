@@ -63,11 +63,11 @@ for (var i = 0; i < squares.length; i++) {
             changeToCorrectColors(correctColor);
             // change nav #first color
             navFirst.style.backgroundColor = correctColor;
-            resetButton.textContent = "PLAY AGAIN?";
-            message.textContent = "Correct!";
+            resetButton.textContent = "再玩一次？";
+            message.textContent = "正確！";
         } else {
             this.style.backgroundColor = "#232323";
-            message.textContent = "Try again.";
+            message.textContent = "再試一次";
         }
     })
 }
@@ -85,7 +85,7 @@ resetButton.addEventListener("click", function () {
     for (var i = 0; i < squares.length; i++) {
         squares[i].style.backgroundColor = colors[i];
         // change resetButton back to New Colors
-        resetButton.textContent = "NEW COLORS";
+        resetButton.textContent = "新遊戲";
         // reset nav #first color
         navFirst.style.backgroundColor = "#5581B0";
         // reset message
