@@ -1,0 +1,89 @@
+body {
+    background: #232323;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 15px 0;
+    /* 改變行高 */
+    line-height: 1.1;
+}
+
+button {
+    border: none;
+    background-color: none;
+    /* set height of btns to be as tall as their parent element */
+    height: 100%;
+    color: #5581B0;
+    font-size: inherit;
+    font-weight: 700;
+    /* change the spacing between alphabets */
+    letter-spacing: 2px;
+    /* adding fade out effect */
+    transition: all 200ms;
+    /* for other web tools */
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    /* eliminate button outlines */
+    outline: 0;
+}
+
+/* create the hover effect */
+button:hover {
+    color: white;
+    background-color: #5581B0;
+}
+
+#message {
+    /* make <span> visible and with a width */
+    display: inline-block;
+    width: 20%;
+    font-size: inherit;
+    font-weight: 700;
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15%;
+    /* adding fade out effect */
+    transition: background 500ms;
+    /* for other web tools */
+    -webkit-transition: background 500ms;
+    -moz-transition: background 500ms;
+}
+
+#palette {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+#first {
+    background-color: #5581B0;
+}
+
+#second {
+    background-color: white;
+    height: 35px;
+}
+
+.difficultySelected {
+    background-color: #5581B0;
+    color: white;
+}
+
+#colorDisplay {
+    font-size: 3rem;
+}
