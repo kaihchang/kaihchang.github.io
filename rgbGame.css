@@ -87,3 +87,8 @@ button:hover {
 #colorDisplay {
     font-size: 3rem;
 }
+
+#hint {
+    color: white;
+    font-size: 1rem;
+}
